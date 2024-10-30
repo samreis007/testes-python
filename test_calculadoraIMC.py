@@ -7,7 +7,7 @@ class testCalculadoraIMC(unittest.TestCase):
         self.calcIMC = CalculadoraIMC()
 
         # testando o método calcular
-        def test_calcular(self):
+    def test_calcular(self):
             self.assertEqual(self.calcIMC.calcular(55,180),"Magreza")
 
 if __name__ == "__main__":
